@@ -63,6 +63,5 @@ public class ejercicio7Arrays {
             System.out.println("Lo siento, te has quedado sin vidas. La palabra era: " + palabraSeleccionada);
         }
 
-        scanner.close();
     }
 }
