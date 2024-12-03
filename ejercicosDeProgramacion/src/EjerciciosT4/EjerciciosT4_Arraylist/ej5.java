@@ -27,6 +27,5 @@ public class ej5 {
             }
         }
 
-        // Cerrar el objeto Scanner
 
     }}
