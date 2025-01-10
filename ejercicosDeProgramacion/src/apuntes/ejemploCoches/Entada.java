@@ -2,8 +2,8 @@ package apuntes.ejemploCoches;
 
 public class Entrada {
     public static void main(String[] args) {
-        // Crear objetos de la clase Coches
-        Coches coche1 = new Coches(); // Constructor por defecto
+
+        Coches coche1 = new Coches();
         Coches coche2 = new Coches("Ford", "Focus", "Gris"); // Constructor con parámetros
         Coches coche3 = new Coches("Opel", "Corsa", "Negro"); // Constructor con parámetros
 
