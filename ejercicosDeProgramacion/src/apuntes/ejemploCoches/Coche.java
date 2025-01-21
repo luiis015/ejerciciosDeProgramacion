@@ -65,5 +65,5 @@ poder hacer una carrera, es necesaria que se pida primero los participantes son 
  Una vez se termina las vueltas el sistema mostrara ;
  el coche ganaddor es xxx xxxx xxxxxx
  la clasificacion final es;
- 1. xxxx xxxx xxxx xx
+ 1. xxxx xxxx xxxx xx waza
  2.xxxx xxxx xxxx xx */
