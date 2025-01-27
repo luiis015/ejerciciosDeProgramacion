@@ -56,7 +56,7 @@ public class ej3 {
             }
         } while (opcion != 5);
 
-        scanner.close();
+
     }
 
     static void mostrarMenu() {
@@ -96,10 +96,7 @@ public class ej3 {
             return;
         }
 
-        if (pilotos.isEmpty()) {
-            System.out.println("Error: No hay pilotos registrados.");
-            return;
-        }
+
 
         List<Integer> puntosDisponibles = new ArrayList<>();
         for (int i = 1; i <= 12; i++) {
