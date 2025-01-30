@@ -1,4 +1,4 @@
-package ejCalseT5.ej3;
+package ejCalseT5.ej3.ejProfe;
 
 import java.util.Scanner;
 public class Profesor {
@@ -8,17 +8,17 @@ public class Profesor {
 
         System.out.println("Ingrese las notas del alumno:");
 
-        // Nota para Base de Datos
+
         System.out.print("Nota para Base de Datos: ");
         double notaBaseDeDatos = scanner.nextDouble();
         alumno.getBaseDeDatos().setCalificacion(notaBaseDeDatos);
 
-        // Nota para Programación
+
         System.out.print("Nota para Programación: ");
         double notaProgramacion = scanner.nextDouble();
         alumno.getProgramacion().setCalificacion(notaProgramacion);
 
-        // Nota para Lenguaje de Marcas
+
         System.out.print("Nota para Lenguaje de Marcas: ");
         double notaLenguajeDeMarcas = scanner.nextDouble();
         alumno.getLenguajeDeMarcas().setCalificacion(notaLenguajeDeMarcas);

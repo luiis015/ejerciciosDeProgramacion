@@ -1,4 +1,4 @@
-package ejCalseT5.ej3;
+package ejCalseT5.ej3.ejProfe;
 public class Asignatura {
 
     private int identificador;
@@ -12,22 +12,21 @@ public class Asignatura {
         this.calificacion = 0.0; // Inicializamos la calificación en 0
     }
 
-    // Getter para el identificador
+
     public int getIdentificador() {
         return identificador;
     }
 
-    // Getter para el nombre
+
     public String getNombre() {
         return nombre;
     }
 
-    // Getter para la calificación
     public double getCalificacion() {
         return calificacion;
     }
 
-    // Setter para la calificación
+
     public void setCalificacion(double calificacion) {
         this.calificacion = calificacion;
     }

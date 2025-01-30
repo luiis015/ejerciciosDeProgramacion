@@ -1,4 +1,4 @@
-package ejCalseT5.ej3;
+package ejCalseT5.ej3.ejProfe;
 
 public class Alumno {
 
@@ -6,14 +6,14 @@ public class Alumno {
     private Asignatura programacion;
     private Asignatura lenguajeDeMarcas;
 
-    // Constructor con tres parámetros de tipo Asignatura
+
     public Alumno(Asignatura baseDeDatos, Asignatura programacion, Asignatura lenguajeDeMarcas) {
         this.baseDeDatos = baseDeDatos;
         this.programacion = programacion;
         this.lenguajeDeMarcas = lenguajeDeMarcas;
     }
 
-    // Getters para las asignaturas
+
     public Asignatura getBaseDeDatos() {
         return baseDeDatos;
     }
