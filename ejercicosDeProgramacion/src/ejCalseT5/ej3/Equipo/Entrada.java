@@ -10,8 +10,10 @@ public class Entrada {
         equipoB.agregarJugador(new Jugador("Pedro", "delantero", 88));
         equipoB.agregarJugador(new Jugador("Juan", "centrocampista", 81));
 
+
         Partido partido = new Partido(equipoA, equipoB);
         partido.iniciarPartido();
         partido.mostrarResultado();
     }
 }
+
