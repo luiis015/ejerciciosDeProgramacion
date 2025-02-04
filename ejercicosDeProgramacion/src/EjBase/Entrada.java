@@ -44,7 +44,7 @@ public class Entrada {
                         // Crear y añadir la persona al array
                         personas[contadorPersonas] = new Persona(nombre, apellido, dni, edad, peso, altura);
                         contadorPersonas++;
-                        System.out.println("Persona añadida correctamente.");
+                        System.out.println("Model.Persona añadida correctamente.");
                     } else {
                         System.out.println("El sistema está lleno. No puedes añadir más personas.");
                     }
@@ -53,7 +53,7 @@ public class Entrada {
                 case 2: // Mostrar todas las personas
                     System.out.println("\nLista de personas:");
                     for (int i = 0; i < contadorPersonas; i++) {
-                        System.out.println("\nPersona " + (i + 1) + ":");
+                        System.out.println("\nModel.Persona " + (i + 1) + ":");
                         personas[i].mostrarDatos();
                     }
                     break;
@@ -64,7 +64,7 @@ public class Entrada {
                     boolean encontrado = false;
                     for (int i = 0; i < contadorPersonas; i++) {
                         if (personas[i].getNombre().equalsIgnoreCase(nombreBuscar)) {
-                            System.out.println("\nPersona encontrada:");
+                            System.out.println("\nModel.Persona encontrada:");
                             personas[i].mostrarDatos();
                             encontrado = true;
                             break;
@@ -87,7 +87,7 @@ public class Entrada {
                             }
                             personas[contadorPersonas - 1] = null; // Borrar el último elemento
                             contadorPersonas--;
-                            System.out.println("Persona eliminada correctamente.");
+                            System.out.println("Model.Persona eliminada correctamente.");
                             encontrado = true;
                             break;
                         }

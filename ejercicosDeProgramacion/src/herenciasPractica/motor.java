@@ -12,5 +12,5 @@ public class motor {
         this.cv = cv;
     }
 
-    private int
+
 }

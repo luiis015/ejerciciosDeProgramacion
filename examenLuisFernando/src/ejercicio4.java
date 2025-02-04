@@ -35,7 +35,7 @@ public class ejercicio4 {
                     personas[contadorPersonas][3] = dni;
                     contadorPersonas++;
 
-                    System.out.println("Persona agregada correctamente.");
+                    System.out.println("Model.Persona agregada correctamente.");
                 } else {
                     System.out.println("La lista está llena.");
                 }
