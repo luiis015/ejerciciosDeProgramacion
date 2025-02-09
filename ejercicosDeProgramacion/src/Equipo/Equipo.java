@@ -26,13 +26,13 @@ public class Equipo {
 
 
     public boolean atacar() {
-        // Aquí, por simplicidad, vamos a generar un gol con un 50% de probabilidad
+
         double probabilidad = Math.random();
         if (probabilidad < 0.5) {
             goles++;
-            return true; // Gol
+            return true;
         }
-        return false; // No gol
+        return false;
     }
 
     public int getGoles() {

@@ -17,10 +17,10 @@ public class Partido {
 
     public void iniciarPartido() {
         System.out.println("¡El partido ha comenzado!");
-        realizarAtaques(1);  // Primera parte
+        realizarAtaques(1);
         System.out.println("\nComienza la segunda parte...");
         parte = 2;
-        realizarAtaques(2);  // Segunda parte
+        realizarAtaques(2);
     }
 
 

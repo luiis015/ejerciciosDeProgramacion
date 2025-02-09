@@ -57,6 +57,6 @@ public class Entrada {
         partido.mostrarResultado();
 
 
-        scanner.close();
+
     }
 }
