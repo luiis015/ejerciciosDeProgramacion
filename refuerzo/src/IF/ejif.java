@@ -16,6 +16,10 @@ public class ejif {
           System.out.println( "acceso denegado");
       }
 
+//hacer un programa en el que el usaurio
+// en un menu el usario tendra que escoge
+//un opcion del menu y esta pues tendra opciones si las hace mal
+// el programa se lo dira
 
       }
     }
