@@ -1,4 +1,5 @@
 package Equipo;
+
 import java.util.ArrayList;
 
 public class Equipo {
@@ -9,7 +10,6 @@ public class Equipo {
     private ArrayList<Jugador> jugadores;
     private int goles;
 
-
     public Equipo(String nombre, int ataque, int centro, int defensa) {
         this.nombre = nombre;
         this.ataque = ataque;
@@ -19,14 +19,11 @@ public class Equipo {
         this.goles = 0;
     }
 
-
     public void agregarJugador(Jugador jugador) {
         jugadores.add(jugador);
     }
 
-
     public boolean atacar() {
-
         double probabilidad = Math.random();
         if (probabilidad < 0.5) {
             goles++;
@@ -37,5 +34,17 @@ public class Equipo {
 
     public int getGoles() {
         return goles;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public ArrayList<Jugador> getJugadores() {
+        return jugadores;
     }
 }
